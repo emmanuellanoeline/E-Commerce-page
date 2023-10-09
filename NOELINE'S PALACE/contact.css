@@ -1,0 +1,95 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  background-color: rgb(127, 130, 130);
+}
+.logo {
+  font-weight: bolder;
+  color: rgb(38, 189, 38);
+  text-decoration: none;
+  float: left;
+  font-size: 30px;
+  margin-top: -50px;
+  margin-left: 10px;
+}
+
+.navbar {
+  padding: 20px;
+  margin-top: 60px;
+
+}
+.nav:hover {
+  padding: 2px;
+  text-decoration: underline;
+  transition: .5s;
+  box-shadow: 0 0 5px #145f33;
+}
+
+.nav {
+  text-decoration: none;
+  text-align: center;
+  font-size: 25px;
+  display: inline;
+  padding: 100 px;
+  font-weight: bold;
+  margin-left: 200px;
+  color: darkgrey;
+}
+
+.bed{
+  margin-left: 100px;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 50px;
+}
+.couch{
+  margin-left: 30px;
+  border-radius: 50px;
+  margin-top: 100px;
+}
+.wardrobe{
+  margin-left: 300px;
+  margin-top: 20px;
+  border-radius: 50px;
+}
+h1{
+  float: right;
+  margin-right: 150px;
+  color: black;
+  margin-top: 100px;
+
+}
+.fill{
+  float: right;
+  margin-top: 150px;
+  margin-right: -500px;
+  font-size: 30px;
+  background-image: url('src/couch_4.webp');
+  background-size: cover;
+  padding: 40px;
+  width: 400px;
+  height: 500px;
+  border-radius: 50px;
+  
+}
+.header{
+  background-color: white;
+  border-radius: 50px;
+}
+.box{
+  font-size: 20px;
+  border-radius: 5px;
+}
+.icons{
+  font-size: 100px;
+  padding: 70px;
+}
+
+i{
+  margin-right: 40px;
+  
+}
+.icons{
+  color: black;
+  font-size: large;

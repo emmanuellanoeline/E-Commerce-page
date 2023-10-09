@@ -1,0 +1,148 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  background-color: rgb(202, 205, 206);
+  
+}
+
+.logo {
+  font-weight: bolder;
+  color: rgb(38, 189, 38);
+  text-decoration: none;
+  float: left;
+  font-size: 30px;
+  margin-top: -50px;
+  margin-left: 10px;
+}
+
+.navbar {
+  padding: 20px;
+  margin-top: 70px;
+}
+.nav:hover {
+  padding: 2px;
+  text-decoration: underline;
+  transition: .5s;
+  box-shadow: 0 0 5px #145f33;
+}
+
+.nav {
+  text-decoration: none;
+  text-align: center;
+  font-size: 25px;
+  display: inline;
+  padding: 100 px;
+  font-weight: bold;
+  margin-left: 200px;
+  color: aliceblue;
+}
+h1{
+  text-align: center;
+  font-size: 50px;
+  color: rgb(64, 42, 42);
+}
+.couch1{
+  border-radius: 50px;
+  margin-left: 20px;
+}
+.bed1{
+  border-radius: 50px;
+  margin-left: 20px;
+  margin-top: -300px;
+}
+.chairs{
+  margin-left: 500px;
+  margin-top: -200px;
+  border-radius:80% ;
+}
+.text{
+  text-align: justify;
+  width: 250px;
+  height: 350px;
+  float: right;
+  margin-right: 100px;
+  margin-top: 100px;
+  padding: 20px;
+  background-color: burlywood;
+  border-radius: 50px;
+}
+.green{
+  margin-left: 100px;
+  margin-top: 30px;
+  border-radius: 50px;}
+
+  .blue{
+    margin-left: 42%;
+    margin-top: -200px;
+    border-radius: 50px;
+  }
+  .plant{
+    margin-left: 20px;
+    margin-top: -200px;
+    border-radius: 50px;
+  }
+  .pillow{
+    margin-left: 53%;
+    margin-top: -500px;
+    border-radius: 100%;
+  }
+  .classy{
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 50px;
+  }
+  .ladder{
+    margin-left: 35%;
+    margin-top: -300px;
+    border-radius: 50px;
+  }
+  h2{
+    float: right;
+    margin-right: 80px;
+    margin-top: -180px;
+    font-size: 200px;
+    color: red;
+  }
+  h4{
+    float: right;
+    margin-right: -300px;
+    margin-top: 30px;
+    font-size: 25px;
+    background-color: aliceblue;
+    padding: 15px;
+    border-radius: 30px;
+  }
+  .ash{
+    margin-left: 20px;
+    border-radius: 50px;
+  }
+  .wood{
+    margin-left: 500px;
+    margin-top: -200px;
+    border-radius: 50px;
+  }
+  .more{
+    float: right;
+    margin-right: 10px;
+    margin-top: -90px;
+    font-size: 35px;
+    color: red;
+    font-weight: bold;
+    background-color: burlywood;
+    padding: 40px;
+    border-radius: 50px;
+    animation: blinking 1.5s  infinite;}
+
+    @keyframes blinking {
+      0%{color: red;
+      }
+    
+      62%{ color: transparent;
+      }
+      97%{
+        color: transparent;
+      }
+    
+      
+    }

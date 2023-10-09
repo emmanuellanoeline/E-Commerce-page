@@ -1,0 +1,107 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  background: rgb(132, 133, 133);
+}
+
+.logo {
+  font-weight: bolder;
+  color: rgb(38, 189, 38);
+  text-decoration: none;
+  float: left;
+  font-size: 40px;
+  margin-top: -80px;
+  margin-left: 10px;
+}
+.nav:hover {
+  padding: 2px;
+  text-decoration: underline;
+  transition: .5s;
+  box-shadow: 0 0 5px #145f33;
+}
+.writeup2{
+  color: aliceblue;
+  padding: 5px;
+  background-color: rgb(88, 94, 94);
+  float: right;
+  margin-top:150px;
+  width: 250px;
+  height: 250px;
+  margin-right: 40px;
+  text-align: justify;
+
+}
+.image{
+  margin-top: 150px;
+  margin-left: 350px;
+}
+.writeup{
+  color: aliceblue;
+  padding: 5px;
+  background-color: rgb(88, 94, 94);
+  float: left;
+  margin-top: -450px;
+  width: 250px;
+  height: 250px;
+  margin-left: 30px;
+  text-align: justify;
+}
+
+.navbar{
+  font-weight: bold;
+  margin-top: 100px;
+  font-size: 25px;
+  text-align: center;
+
+}
+.nav{
+  color: aliceblue;
+  padding: 50px;
+  text-decoration: none;
+  margin-top: 100px;
+}
+.mat{
+  margin-left: 20px;
+  margin-top: 100px;
+  border-radius: 50px;
+}
+.armchair{
+  float: right;
+  margin-right: 100px;
+  margin-top: -350px;
+  border-radius: 50px;
+}
+.painting{
+  border-radius: 50px;
+  margin-left: 400px;
+  margin-top: -300px;
+}
+.shop{
+float: right;
+font-weight: bolder;
+text-decoration: none;
+margin-right: 100px;
+margin-top: -400x;
+background-color: rgb(187, 116, 24);
+padding: 20px;
+font-size: 55px;
+color: aliceblue;
+border-radius: 50px;
+animation: blinking 1.5s infinite;
+}
+
+
+@keyframes blinking {
+  0% {
+    color: red;
+  }
+
+  62% {
+    color: red ;
+  }
+
+  97% {
+    color: red;
+  }
+}

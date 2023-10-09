@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url('src/gray_sofa.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.logo {
+  font-weight: bolder;
+  color: rgb(38, 189, 38);
+  text-decoration: none;
+  float: left;
+  font-size: 30px;
+  margin-top: -50px;
+  margin-left: 10px;
+}
+
+.navbar{
+    padding: 35px;
+    margin-top: 60px;
+  }
+
+.nav{
+  text-decoration: none;  
+  text-align: center;
+  font-size: 25px;
+  display: inline;
+  padding:100 px;
+  font-weight: bold;
+  margin-left: 200px;
+  color: aliceblue;
+}
+
+.first{
+  font-size: 50px;
+  width: 50px;
+  height: 320px;
+  margin-left: 300px;
+  margin-top: 40px;
+  color: green;
+}
+h3{
+  margin-top: -250px;
+  width: 400px;
+  margin-left: 700px;
+  text-decoration: underline;
+  color: green;
+}
+.nav:hover{
+  padding: 2px;
+  text-decoration: underline;
+  transition: .5s;
+  box-shadow: 0 0 5px #145f33;
+}
